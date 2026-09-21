@@ -1,0 +1,18 @@
+#include <iostream>
+
+int main() {
+    int width, length, perimeter;
+
+    std::cout << "Input width of rectangle: ";
+    std::cin >> width;
+
+    std::cout << "Input length of rectangle: ";
+    std::cin >> length;
+
+    perimeter = (2*width)+(2*length);
+    std::cout << "The perimeter of the rectangle is ";
+    std::cout << perimeter;
+    std::cout << " units" << std::endl;
+
+    return 0;
+}
